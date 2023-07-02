@@ -43,7 +43,7 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1310px;
+    max-width: 1280px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -195,6 +195,7 @@ img {
 }
 
 .posts-container {
+    max-width: 1282px;
     display: flex;
     gap: 32px;
 }
@@ -242,7 +243,6 @@ img {
 }
 
 .posts-feature-text {
-    color: var(--primary-color);
     line-height: 1.75;
     max-width: 551px;
     margin-bottom: 32px;
@@ -292,8 +292,6 @@ img {
     line-height: 1.75;
 }
 
-.posts-all-list {}
-
 .posts-all-item {
     padding: 32px 116px 25px 32px;
     transition: background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -322,4 +320,90 @@ img {
    font-family: Sen, sans-serif;
    font-weight: 700;
    line-height: 1.33; 
+}
+
+/* ----------about---------- */
+
+.about {
+    padding-bottom: 128px;
+    position: relative;
+}
+
+.about-span1 {
+    width: 843px;
+    height: 23px;
+    background-color: var(--primary-link-color);
+    margin: 0 auto;
+}
+
+.about-span2 {
+    width: 282px;
+    height: 23px;
+    background-color: var(--primary-acent-color);
+    position: absolute;
+    top: 0%;
+    right: 95px;
+}
+ 
+.about-wrap {
+    display: flex;
+    background-color: #F4F0F8;
+}
+
+.about-us {
+    max-width: 656px;
+    padding: 96px 61px 96px 80px;
+}
+
+.about-subtitle {
+    color: var(--primary-title-color);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about-us-title {
+    color: var(--primary-title-color);
+    font-size: 36px;
+    font-family: Sen, sans-serif;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: -0.05em;
+    margin-bottom: 16px;
+    max-width: 494px;
+}
+
+.about-us-text {
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+.about-us-link {
+    color: var(--primary-acent-color);
+    font-size: 18px;
+    font-family: Sen, sans-serif;
+    font-weight: 700;
+    line-height: 1.77;
+}
+
+.about-our {
+    max-width: 624px;
+    padding: 98px 108px 153px 0;
+}
+
+.about-our-title {
+    color: var(--primary-title-color);
+    font-size: 28px;
+    font-family: Sen, sans-serif;
+    font-weight: 700;
+    line-height: 1.42;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+    max-width: 481px;
+}
+
+.about-our-text {
+    line-height: 1.75;
 }
